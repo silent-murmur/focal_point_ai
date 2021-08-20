@@ -1,0 +1,6 @@
+focal_point_ai.settings_form:
+  title: 'Focal Point AI Settings'
+  route_name: focal_point_ai.settings
+  description: 'Insert key, test connection, chose API.'
+  parent: system.admin_config_system
+  weight: 99

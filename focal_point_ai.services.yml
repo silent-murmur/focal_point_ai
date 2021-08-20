@@ -1,0 +1,7 @@
+services:
+  logger.channel.focal_point_ai:
+    parent: logger.channel_base
+    arguments: ['focal_point_ai']
+  focal_point_ai.default:
+    class: Drupal\focal_point_ai\Services\FocalPointAiService
+    arguments: ['@config.factory', '@messenger', '@file_system']

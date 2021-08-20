@@ -1,0 +1,10 @@
+name: 'Focal Point AI'
+type: module
+description: 'Focus point of interest via MS Azure.'
+core: 8.x
+package: 'AI'
+
+# Information added by Drupal.org packaging script on 2019-12-19
+version: '8.x-1.0+0-dev'
+project: 'focal_point_ai'
+datestamp: 1576743202

@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Contains focal_point_ai.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function focal_point_ai_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the focal_point_ai module.
+    case 'help.page.focal_point_ai':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Focus point of interest via MS Azure.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function focal_point_ai_theme() {
+  return [
+    'test_result' => [
+      'variables' => [
+        'response' => NULL,
+      ],
+    ],
+  ];
+}
