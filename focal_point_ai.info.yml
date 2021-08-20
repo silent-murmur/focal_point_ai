@@ -8,3 +8,4 @@ package: 'AI'
 version: '8.x-1.0+0-dev'
 project: 'focal_point_ai'
 datestamp: 1576743202
+core_version_requirement: ^8 || ^9
